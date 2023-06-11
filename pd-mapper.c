@@ -194,7 +194,7 @@ static int pd_load_map(const char *file)
 }
 
 #ifndef ANDROID
-#define FIRMWARE_BASE	"/lib/firmware/"
+#define FIRMWARE_BASE	"/run/current-system/firmware/"
 #else
 #define FIRMWARE_BASE	"/vendor/firmware/"
 #endif
