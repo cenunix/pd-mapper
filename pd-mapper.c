@@ -196,7 +196,7 @@ static int pd_load_map(const char *file)
 #ifndef ANDROID
 #define FIRMWARE_BASE	"/run/current-system/firmware/"
 #else
-#define FIRMWARE_BASE	"/vendor/firmware/"
+#define FIRMWARE_BASE	"/run/current-system/firmware/"
 #endif
 
 static int pd_enumerate_jsons(struct assoc *json_set)
